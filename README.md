@@ -38,13 +38,4 @@ Escape_Characters_testdemo
 
 Escape\_Characters\_testdemo
 
-        String fullName;
-        fullName = JOptionPane.showInputDialog("Enter your First and Last Name");
-        //lastName = JOptionPane.showInputDialog("Enter your Last Name");
-        String name[] = fullName.split(" ");
-        
-        String lastName = name[1];
-        String firstName = name[0];
-        //age = Integer.parseInt(JOptionPane.showInputDialog("Enter  your age"));
-        JOptionPane.showMessageDialog(null, "Last Name is " + lastName.toUpperCase() + " and length of Last Name is " + lastName.length() + "\n" + "First Name is " + firstName.toUpperCase() + " and length of first Name is " + firstName.length() );
         
