@@ -38,4 +38,10 @@ Escape_Characters_testdemo
 
 Escape\_Characters\_testdemo
 
-        
+---
+
+* Directions for traveling from Maryville to Vemullapalli.
+  1. Catch a Cab from Maryville to Kansas-city Airport.
+  2. Take a flight to Chicago and catch the connecting flight to Hyderabad, India.
+  3. Come out from the airport and catch a Airport Bus to MGBS.
+  4. From MGBS, change to other bus to vemullapalli.
