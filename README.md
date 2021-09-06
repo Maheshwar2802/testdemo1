@@ -57,3 +57,154 @@ Escape\_Characters\_testdemo
     * Beer
   * Grill Set.
   * Outdoor Tent Set with Chairs.
+
+```
+    private String laptopBrand;
+    private String processor;
+    private String operatingSystem;
+    private int hardDrive;
+    private double display;
+    private boolean touch;
+
+    /**
+     * Parameterized Constructor for Laptop Class
+     *
+     * @param laptopBrand
+     * @param processor
+     * @param operatingSystem
+     * @param hardDrive
+     * @param display
+     * @param touch
+     */
+    public Laptop(String laptopBrand, String processor, String operatingSystem, int hardDrive, double display, boolean touch) {
+        this.laptopBrand = laptopBrand;
+        this.processor = processor;
+        this.operatingSystem = operatingSystem;
+        this.hardDrive = hardDrive;
+        this.display = display;
+        this.touch = touch;
+    }
+
+    /**
+     * Default Constructor for Laptop Class
+     */
+    public Laptop() {
+
+    }
+
+    /**
+     * toString Method to get all the values
+     *
+     * @return String Object Values
+     */
+    public String toString() {
+        return "Laptop Brand: " + laptopBrand + "\nLaptop Processor: " + processor + "\nLaptop Operating System: " + operatingSystem + "\nLaptop Hard Drive: " + hardDrive + "\nLaptop Display: " + display + "\nLaptop Is Touch: " + touch;
+    }
+
+    /**
+     * Getter method for LaptopBrand Value
+     *
+     * @return laptopBrand
+     */
+    public String getLaptopBrand() {
+        return laptopBrand;
+    }
+
+    /**
+     * Setter Method to LaptopBrand
+     *
+     * @param laptopBrand
+     */
+    public void setLaptopBrand(String laptopBrand) {
+        this.laptopBrand = laptopBrand;
+    }
+
+    /**
+     * Getter Method for Processor Value
+     *
+     * @return processor
+     */
+    public String getProcessor() {
+        return processor;
+    }
+
+    /**
+     * Setter Method to Processor
+     *
+     * @param processor
+     */
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    /**
+     * Getter Method for OperatingSystem
+     *
+     * @return operatingSystem
+     */
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
+
+    /**
+     * Setter Method to operatingSystem
+     *
+     * @param operatingSystem
+     */
+    public void setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+    }
+
+    /**
+     * Getter Method to hardDrive
+     *
+     * @return hardDrive
+     */
+    public int getHardDrive() {
+        return hardDrive;
+    }
+
+    /**
+     * Setter Method for hardDrive
+     *
+     * @param hardDrive
+     */
+    public void setHardDrive(int hardDrive) {
+        this.hardDrive = hardDrive;
+    }
+
+    /**
+     * Getter Method to Display value
+     *
+     * @return display
+     */
+    public double getDisplay() {
+        return display;
+    }
+
+    /**
+     * Setter Method for display
+     *
+     * @param display
+     */
+    public void setDisplay(double display) {
+        this.display = display;
+    }
+
+    /**
+     * Getter Method for touch
+     *
+     * @return touch
+     */
+    public boolean isTouch() {
+        return touch;
+    }
+
+    /**
+     * Setter Method to touch value
+     *
+     * @param touch
+     */
+    public void setTouch(boolean touch) {
+        this.touch = touch;
+```
